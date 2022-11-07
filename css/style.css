@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+
+
+body {
+    background: linear-gradient(120deg, yellow,red,hotpink,orange,blue);
+    min-height: 100vh;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.tabs input {
+    display: none;
+}
+.tabs img {
+    width: 230px;
+    height: 280px;
+    object-fit: cover;
+}
+#all:checked ~ .html,
+#all:checked ~ .css,
+#all:checked ~ .js,
+#all:checked ~ .ts {
+    opacity: 1;
+    transition: 0.4s;
+}
+
+#html:checked ~ .css,
+#html:checked ~ .js,
+#html:checked ~ .ts {
+    opacity: 0.4;
+    transition: .4s;
+}
+
+#css:checked ~ .html,
+#css:checked ~ .js,
+#css:checked ~ .ts {
+    opacity: 0.4;
+    transition: .4s;
+}
+
+#js:checked ~ .html,
+#js:checked ~ .css,
+#js:checked ~ .ts {
+    opacity: 0.4;
+    transition: .4s;
+}
+
+
+#ts:checked ~ .html,
+#ts:checked ~ .css,
+#ts:checked ~ .js {
+    opacity: 0.4;
+    transition: .4s;
+}
+.labels {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.44);
+    padding: 30px 0;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.labels {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(0,0,0,0.44);
+    padding: 30px 0;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.labels label {
+    padding: 15px 30px;
+    background: linear-gradient(40deg,yellow,red,hotpink);
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.images {
+
+    width: 100%;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
